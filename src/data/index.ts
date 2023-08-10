@@ -1,0 +1,68 @@
+import { Product } from "../store";
+
+export const PRODUCTS: Product[] = [
+  {
+    id: "1",
+    title: "New Balance X90",
+    type: "Shoes",
+    variants: "Multiple colors",
+    img: "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2012&q=80",
+    price: 40,
+  },
+  {
+    id: "2",
+    title: "Nike Air Force 1",
+    type: "Shoes",
+    variants: "1 Color",
+    img: "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1065&q=80",
+    price: 60,
+  },
+  {
+    id: "3",
+    title: "Nike Legend Essential 2",
+    type: "Shoes",
+    variants: "Multiple colors",
+    img: "https://images.unsplash.com/photo-1605408499391-6368c628ef42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    price: 39,
+  },
+  {
+    id: "4",
+    title: "Converse",
+    type: "Shoes",
+    variants: "1 Color",
+    img: "https://images.unsplash.com/photo-1619521440807-ba72afd67b12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    price: 40,
+  },
+  {
+    id: "5",
+    title: "Nike Free",
+    type: "Shoes",
+    variants: "1 Color",
+    img: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    price: 40,
+  },
+  {
+    id: "6",
+    title: "Puma White Sneakers",
+    type: "Shoes",
+    variants: "1 Color",
+    img: "https://images.unsplash.com/photo-1608231387042-66d1773070a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    price: 40,
+  },
+  {
+    id: "7",
+    title: "Nike Black and White Basketball",
+    type: "Shoes",
+    variants: "1 Color",
+    img: "https://images.unsplash.com/photo-1605348532760-6753d2c43329?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    price: 40,
+  },
+  {
+    id: "8",
+    title: "New Balance 997H Grey Day",
+    type: "Shoes",
+    variants: "1 Color",
+    img: "https://images.unsplash.com/photo-1621315271772-28b1f3a5df87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    price: 40,
+  },
+];

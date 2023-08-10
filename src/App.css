@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Poppins, sans-serif;
+  }
+}
+
+.flyingBtn {
+  z-index: 1;
+  transform-origin: center bottom;
+  transform: scale(1);
+}
