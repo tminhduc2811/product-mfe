@@ -26,7 +26,7 @@ var jsxRuntimeExports = jsxRuntime.exports;
 const App$1 = '';
 
 const remotesMap = {
-'cart-mfe':{url:'http://localhost:3002/assets/cart-mfe-entry.js',format:'esm',from:'vite'}
+'cart-mfe':{url:'https://tminhduc2811.github.io/cart-mfe/assets/cart-mfe-entry.js',format:'esm',from:'vite'}
 };
                 const loadJS = async (url, fn) => {
                     const resolvedUrl = typeof url === 'function' ? await url() : url;

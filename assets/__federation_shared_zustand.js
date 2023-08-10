@@ -18,7 +18,7 @@ const createStoreImpl = (createState) => {
     return () => listeners.delete(listener);
   };
   const destroy = () => {
-    if (({"VITE_PRODUCT_MFE_URL":"http://localhost:3001/assets/product-mfe-entry.js","VITE_CART_MFE_URL":"http://localhost:3002/assets/cart-mfe-entry.js","VITE_ABOUT_MFE_URL":"http://localhost:4001/assets/about-mfe-entry.js","BASE_URL":"/product-mfe/","MODE":"production","DEV":false,"PROD":true,"SSR":false} ? "production" : void 0) !== "production") {
+    if (({"VITE_PRODUCT_MFE_URL":"https://tminhduc2811.github.io/product-mfe/assets/product-mfe-entry.js","VITE_CART_MFE_URL":"https://tminhduc2811.github.io/cart-mfe/assets/cart-mfe-entry.js","VITE_ABOUT_MFE_URL":"https://tminhduc2811.github.io/about-mfe/assets/about-mfe-entry.js","BASE_URL":"/product-mfe/","MODE":"production","DEV":false,"PROD":true,"SSR":false} ? "production" : void 0) !== "production") {
       console.warn(
         "[DEPRECATED] The `destroy` method will be unsupported in a future version. Instead use unsubscribe function returned by subscribe. Everything will be garbage-collected if store is garbage-collected."
       );
@@ -82,7 +82,7 @@ const {useDebugValue} = await importShared('react');
 const { useSyncExternalStoreWithSelector } = useSyncExternalStoreExports;
 let didWarnAboutEqualityFn = false;
 function useStore(api, selector = api.getState, equalityFn) {
-  if (({"VITE_PRODUCT_MFE_URL":"http://localhost:3001/assets/product-mfe-entry.js","VITE_CART_MFE_URL":"http://localhost:3002/assets/cart-mfe-entry.js","VITE_ABOUT_MFE_URL":"http://localhost:4001/assets/about-mfe-entry.js","BASE_URL":"/product-mfe/","MODE":"production","DEV":false,"PROD":true,"SSR":false} ? "production" : void 0) !== "production" && equalityFn && !didWarnAboutEqualityFn) {
+  if (({"VITE_PRODUCT_MFE_URL":"https://tminhduc2811.github.io/product-mfe/assets/product-mfe-entry.js","VITE_CART_MFE_URL":"https://tminhduc2811.github.io/cart-mfe/assets/cart-mfe-entry.js","VITE_ABOUT_MFE_URL":"https://tminhduc2811.github.io/about-mfe/assets/about-mfe-entry.js","BASE_URL":"/product-mfe/","MODE":"production","DEV":false,"PROD":true,"SSR":false} ? "production" : void 0) !== "production" && equalityFn && !didWarnAboutEqualityFn) {
     console.warn(
       "[DEPRECATED] Use `createWithEqualityFn` instead of `create` or use `useStoreWithEqualityFn` instead of `useStore`. They can be imported from 'zustand/traditional'. https://github.com/pmndrs/zustand/discussions/1937"
     );
@@ -99,7 +99,7 @@ function useStore(api, selector = api.getState, equalityFn) {
   return slice;
 }
 const createImpl = (createState) => {
-  if (({"VITE_PRODUCT_MFE_URL":"http://localhost:3001/assets/product-mfe-entry.js","VITE_CART_MFE_URL":"http://localhost:3002/assets/cart-mfe-entry.js","VITE_ABOUT_MFE_URL":"http://localhost:4001/assets/about-mfe-entry.js","BASE_URL":"/product-mfe/","MODE":"production","DEV":false,"PROD":true,"SSR":false} ? "production" : void 0) !== "production" && typeof createState !== "function") {
+  if (({"VITE_PRODUCT_MFE_URL":"https://tminhduc2811.github.io/product-mfe/assets/product-mfe-entry.js","VITE_CART_MFE_URL":"https://tminhduc2811.github.io/cart-mfe/assets/cart-mfe-entry.js","VITE_ABOUT_MFE_URL":"https://tminhduc2811.github.io/about-mfe/assets/about-mfe-entry.js","BASE_URL":"/product-mfe/","MODE":"production","DEV":false,"PROD":true,"SSR":false} ? "production" : void 0) !== "production" && typeof createState !== "function") {
     console.warn(
       "[DEPRECATED] Passing a vanilla store will be unsupported in a future version. Instead use `import { useStore } from 'zustand'`."
     );
@@ -111,7 +111,7 @@ const createImpl = (createState) => {
 };
 const create = (createState) => createState ? createImpl(createState) : createImpl;
 var react = (createState) => {
-  if (({"VITE_PRODUCT_MFE_URL":"http://localhost:3001/assets/product-mfe-entry.js","VITE_CART_MFE_URL":"http://localhost:3002/assets/cart-mfe-entry.js","VITE_ABOUT_MFE_URL":"http://localhost:4001/assets/about-mfe-entry.js","BASE_URL":"/product-mfe/","MODE":"production","DEV":false,"PROD":true,"SSR":false} ? "production" : void 0) !== "production") {
+  if (({"VITE_PRODUCT_MFE_URL":"https://tminhduc2811.github.io/product-mfe/assets/product-mfe-entry.js","VITE_CART_MFE_URL":"https://tminhduc2811.github.io/cart-mfe/assets/cart-mfe-entry.js","VITE_ABOUT_MFE_URL":"https://tminhduc2811.github.io/about-mfe/assets/about-mfe-entry.js","BASE_URL":"/product-mfe/","MODE":"production","DEV":false,"PROD":true,"SSR":false} ? "production" : void 0) !== "production") {
     console.warn(
       "[DEPRECATED] Default export is deprecated. Instead use `import { create } from 'zustand'`."
     );
